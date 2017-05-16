@@ -313,7 +313,7 @@ width: auto;
 
 .dfsection1
 {
-width: 98%;float:left; border: 1px solid #dadab4;
+width: 98%;min-width: 387px;float:left; border: 1px solid #dadab4;
 }
 .dfsection1h31
 {
