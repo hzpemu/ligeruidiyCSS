@@ -55,13 +55,17 @@ margin-bottom: 8px;
 margin: 0px;
 padding: 0px;
 min-height: 175px;
+  display: flex;
+  -webkit-box-align: start;    align-items: flex-start 
 }
 .dsectiondiv1dl1dt1
 {
-
 float: right;
 margin: 0px;
 padding: 0px;
+     width: 40%;
+    margin-left: 1rem!important;
+display: flex!important;
 }
 .dsectiondiv1dl1dt1a1img1
 {
@@ -75,7 +79,7 @@ text-align: center;
 }
 .dsectiondiv1dl1dd1
 {
-width: 68%;
+width: 60%;
 float: left;
 padding-top: 8px;
 margin: 0px;
@@ -298,7 +302,8 @@ margin: 0px;
 padding: 0px;
 border: 0px none;
 text-align: right;
-line-height: 100%;
+width: auto;
+    height: 27px;
 }
 
 
