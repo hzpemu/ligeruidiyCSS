@@ -5,7 +5,7 @@ margin-bottom: 18px;
 padding: 14px 9px 10px;
 position: relative;
 float: left;
-max-width: 720px;
+
 }
 .dsectiondiv1h1
 {
@@ -56,12 +56,12 @@ margin-bottom: 8px;
 margin: 0px;
 padding: 0px;
 min-height: 175px;
-  display: flex;
+ 
   -webkit-box-align: start;    align-items: flex-start 
 }
 .dsectiondiv1dl1dt1
 {
-float: right;
+float: right !important;
 margin: 0px;
 padding: 0px;
      width: 230px;
