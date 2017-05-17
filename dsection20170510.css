@@ -80,6 +80,7 @@ text-align: center;
 .dsectiondiv1dl1dd1
 {
 width: 60%;
+min-width: 300px;
 float: left;
 padding-top: 8px;
 margin: 0px;
@@ -167,7 +168,8 @@ padding: 0px;
 }
 .dsectiondiv1div1dl1
 {
-width: 310px;
+width: 50%;
+min-width: 300px;  
 float: left;
 padding-right: 10px;
 margin: 0px;
