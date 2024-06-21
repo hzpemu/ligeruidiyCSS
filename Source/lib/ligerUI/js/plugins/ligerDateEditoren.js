@@ -73,11 +73,11 @@
             var dateeditorHTML = "";
             dateeditorHTML += "<div class='l-box-dateeditor' style='display:none'>";
             dateeditorHTML += "    <div class='l-box-dateeditor-header'>";
-            dateeditorHTML += "        <div class='l-box-dateeditor-header-btn fa fa-step-backward'><span></span></div>";
-            dateeditorHTML += "        <div class='l-box-dateeditor-header-btn fa-arrow-circle-left'><span></span></div>";
+            dateeditorHTML += "        <div class='l-box-dateeditor-header-btn ' style='left:4px;'><span class='fa fa-step-backward'></span></div>";
+            dateeditorHTML += "        <div class='l-box-dateeditor-header-btn ' style='left:24px;'><span class='fa-arrow-circle-left'></span></div>";
             dateeditorHTML += "        <div class='l-box-dateeditor-header-text'><a class='l-box-dateeditor-header-month'></a> , <a  class='l-box-dateeditor-header-year'></a></div>";
-            dateeditorHTML += "        <div class='l-box-dateeditor-header-btn fa-arrow-circle-right'><span></span></div>";
-            dateeditorHTML += "        <div class='l-box-dateeditor-header-btn fa fa-step-forward'><span></span></div>";
+            dateeditorHTML += "        <div class='l-box-dateeditor-header-btn ' style='right:24px;'><span class='fa-arrow-circle-right'></span></div>";
+            dateeditorHTML += "        <div class='l-box-dateeditor-header-btn ' style='right:4px;'><span class='fa fa-step-forward'></span></div>";
             dateeditorHTML += "    </div>";
             dateeditorHTML += "    <div class='l-box-dateeditor-body'>";
             dateeditorHTML += "        <table cellpadding='0' cellspacing='0' border='0' class='l-box-dateeditor-calendar'>";
