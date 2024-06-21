@@ -73,11 +73,11 @@
             var dateeditorHTML = "";
             dateeditorHTML += "<div class='l-box-dateeditor' style='display:none'>";
             dateeditorHTML += "    <div class='l-box-dateeditor-header'>";
-            dateeditorHTML += "        <div class='l-box-dateeditor-header-btn ' style='left:4px;'><span class='fa fa-step-backward'></span></div>";
-            dateeditorHTML += "        <div class='l-box-dateeditor-header-btn ' style='left:24px;'><span class='fa-arrow-circle-left'></span></div>";
+            dateeditorHTML += "        <div class='fa fa-step-backward l-box-dateeditor-header-btn ' style='left:4px;'><span class=''></span></div>";
+            dateeditorHTML += "        <div class='fa fa-arrow-circle-left l-box-dateeditor-header-btn ' style='left:24px;'><span class=''></span></div>";
             dateeditorHTML += "        <div class='l-box-dateeditor-header-text'><a class='l-box-dateeditor-header-month'></a> , <a  class='l-box-dateeditor-header-year'></a></div>";
-            dateeditorHTML += "        <div class='l-box-dateeditor-header-btn ' style='right:24px;'><span class='fa-arrow-circle-right'></span></div>";
-            dateeditorHTML += "        <div class='l-box-dateeditor-header-btn ' style='right:4px;'><span class='fa fa-step-forward'></span></div>";
+            dateeditorHTML += "        <div class='fa fa-arrow-circle-right l-box-dateeditor-header-btn ' style='right:24px;'><span class=''></span></div>";
+            dateeditorHTML += "        <div class='fa fa-step-forward l-box-dateeditor-header-btn ' style='right:4px;'><span class=''></span></div>";
             dateeditorHTML += "    </div>";
             dateeditorHTML += "    <div class='l-box-dateeditor-body'>";
             dateeditorHTML += "        <table cellpadding='0' cellspacing='0' border='0' class='l-box-dateeditor-calendar'>";
@@ -120,8 +120,8 @@
             g.toolbar.time.hour = $("<a></a>");
             g.toolbar.time.minute = $("<a></a>");
             g.buttons = {
-                btnPrevYear: $(".fa fa-step-backward", g.header),
-                btnNextYear: $(".fa fa-step-forward", g.header),
+                btnPrevYear: $(".fa-step-backward", g.header),
+                btnNextYear: $(".fa-step-forward", g.header),
                 btnPrevMonth: $(".fa-arrow-circle-left", g.header),
                 btnNextMonth: $(".fa-arrow-circle-right", g.header),
                 btnYear: $(".l-box-dateeditor-header-year", g.header),
