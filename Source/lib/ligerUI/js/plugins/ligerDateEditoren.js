@@ -1,4 +1,5 @@
 ﻿/**
+* 20240621由于jsdeliver 引用raw.github 图片有问题，部份图改用fontawesome4。7
 *半插件于20161227由hzpemu修改自ligerui插件 ,以下是ligerui官网
 * jQuery ligerUI 1.3.2
 * 
@@ -63,7 +64,7 @@
             g.inputText = $(this.element);
             if (!g.inputText.hasClass("l-text-field"))
                 g.inputText.addClass("l-text-field");
-            g.link = $('<div class="l-trigger"><div class="l-trigger-icon"></div></div>');
+            g.link = $('<div class="l-trigger"><div class="fa fa-calendar"></div></div>');
             g.text = g.inputText.wrap('<div class="l-text l-text-date"></div>').parent();
             g.text.append('<div class="l-text-l"></div><div class="l-text-r"></div>');
             g.text.append(g.link);
